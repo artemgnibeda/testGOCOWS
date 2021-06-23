@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "ticker": "AKAM",
+    "Name": "Akamai Technologies",
+    "SCTR": 93.9,
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1,
+  },
+  {
+    "id": 3,
+    "ticker": "FHN",
+    "Name": "First Horizon",
+    "SCTR": 66.4,
+  },
+  {
+    "id": 4,
+    "ticker": "AKAM",
+    "Name": "Akamai Technologies",
+    "SCTR": 93.9,
+  }
+];

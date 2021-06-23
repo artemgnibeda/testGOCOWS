@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;400;500;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rokkitt", serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1350px; } }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0Esc0dBQVk7QUFLWjtFQUNFLFVBQVM7RUFDVCxXQUFVO0VBQ1YsOEJBTjRCO0VBTzVCLCtCQUFzQjtVQUF0Qix1QkFBc0IsRUFDdkI7O0FBR0Q7RUFDRTtJQUNFLGtCQUFpQixFQUNsQixFQUFBOztBQUlIO0VBQ0UsWUFBVztFQUNYLG9CQUFtQjtFQUNuQixtQkFBa0I7RUFDbEIsbUJBQWtCO0VBQ2xCLGtCQUFpQixFQUNsQiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiaW5jbHVkZXNcIjtcbkBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVJva2tpdHQ6d2dodEAzMDA7NDAwOzUwMDs3MDA7ODAwJmRpc3BsYXk9c3dhcCcpO1xuXG4kbWFpbi1mYW1pbHk6ICdSb2traXR0Jywgc2VyaWY7XG5cblxuYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgZm9udC1mYW1pbHk6ICRtYWluLWZhbWlseTtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuXG5AbWVkaWEgKG1pbi13aWR0aDogMTM1MHB4KSB7XG4gIC5jb250YWluZXIge1xuICAgIG1heC13aWR0aDogMTM1MHB4O1xuICB9XG5cbn1cblxuLmNvbnRhaW5lciB7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nLXJpZ2h0OiAxNXB4O1xuICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG59XG5cblxuXG4udG9wLWxpbmUge1xuXG59Il19 */
