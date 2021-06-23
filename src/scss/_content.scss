@@ -14,7 +14,9 @@
   font-size: 50px;
   line-height: 50px;
   color: #FFFFFF;
-  mix-blend-mode: overlay;
+  span {
+    mix-blend-mode: overlay;
+  }
 }
 
 
@@ -89,8 +91,8 @@
   background: #29B6F6;
   position: relative;
   width: 330px;
+  border-right: 1px solid #fff;
   max-width: 330px;
-  height: 100%;
   padding: 120px 20px 20px;
   .aside-left_avatar {
     position: absolute;
@@ -143,22 +145,209 @@
   width: calc(100% - 330px);
   background: #80D6FF;
   padding: 20px;
+  padding-bottom: 45px;
+  position: relative;
+  &:after {
+    content: '';
+    width: 100%;
+    bottom: -1px;
+    height: 25px;
+    left: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+    background: linear-gradient( to right bottom, transparent 49%, #fff 51%) left / 100% 100% no-repeat;
+    z-index: 1;
+  }
 }
 
 .table {
   width: 100%;
   text-align: left;
   background-color: #fff;
+  margin-bottom: 30px;
+  border-spacing: 0px;
+  font-family: $inter-family;
+  border: 1px solid #D1CFD7;
   tr {
+    &:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+    td,th {
+      padding: 14px 8px;
+      border-right: 1px solid #D1CFD7;
+      border-bottom: 1px solid #D1CFD7;
+      &:last-child {
+        border-right: none;
+      }
+    }
     th {
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: -0.08px;
+      background: #F7F7FA;
+
       &:last-child {
         text-align: center;
       }
     }
     td {
+      font-size: 15px;
+      letter-spacing: -0.24px;
+      line-height: 20px;
+      color: #232326;
+      font-feature-settings: 'tnum' on, 'lnum' on;
       &:last-child {
         text-align: right;
       }
+    }
+  }
+}
+
+.show-more {
+  margin:  0 auto;
+}
+
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  .info-section_item {
+    width: 33%;
+    &:nth-child(odd) {
+      background-color: #80D6FF;
+    }
+  }
+}
+.info-section_item {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  min-height: 270px;
+}
+
+.bottom-item {
+  text-align: center;
+  overflow: hidden;
+  a {
+    padding: 20px;
+    display: inline-block;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+    background: #80D6FF;
+    border-radius: 10px;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 40px;
+      height: 100%;
+      background: #C1A2FF;
+      transform: rotate(-15deg);
+      z-index: 1;
+    }
+
+    span {
+      position: relative;
+      z-index: 2;
+      mix-blend-mode: overlay;
+    }
+  }
+}
+
+
+.left-fix-item {
+  left: 0;
+  top: 280px;
+  position: fixed;
+  transform-origin: 0% 100%;
+
+  transform: rotate(90deg);
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 2px 12px;
+  background: #C1A2FF;
+  opacity: 0.8;
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width: 767px) {
+  .aside-left .aside-left_avatar {
+    left: 20px;
+    transform: translate(0%,-50%);
+  }
+  .content-wrapper {
+    aside.aside-left {
+      order: 1;
+    }
+    div.top-line {
+      order: 0;
+      height: 160px;
+      font-size: 34px;
+      line-height: 50px;
+      text-align: center;
+    }
+    nav.nav-section {
+      order: 2;
+    }
+    div,section {
+      order: 6;
+    }
+  }
+  .aside-left {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 96px;
+  }
+  .nav-section {
+    padding: 10px;
+    .nav {
+      justify-content: center;
+    }
+    &:after,&:before {
+      display: none;
+
+    }
+  }
+  .content-with-aside {
+    width: 100%;
+    background-color: #fff;
+  }
+  .info-section {
+    margin: 0 0 60px;
+    .info-section_item {
+      padding: 10px;
+      width: 50%;
+      &:nth-child(even) {
+      width: 100%;
+     }
+      &:nth-child(2) {
+        order: 1;
+      }
+    }
+  }
+  .btn {
+    width: 100%;
+    max-width: 450px;
+  }
+  .bottom-item a {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 14px;
+    &:after {
+      top: 22px;
     }
   }
 }

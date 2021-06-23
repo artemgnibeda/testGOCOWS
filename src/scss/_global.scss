@@ -1,4 +1,5 @@
 $main-family: 'Rokkitt', serif;
+$inter-family: 'Inter', sans-serif;
 $blue-color: #0D47A1;
 $gray-color: #232326;
 
@@ -13,8 +14,6 @@ body {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -38,4 +37,17 @@ p {
   color: #0D47A1;
 }
 
-
+.btn {
+  background: #0D47A1;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  cursor: pointer;
+}

@@ -3,24 +3,90 @@
     "id": 1,
     "ticker": "AKAM",
     "Name": "Akamai Technologies",
-    "SCTR": 93.9,
+    "SCTR": 93.9
   },
   {
     "id": 2,
     "ticker": "MU",
     "Name": "Micron",
-    "SCTR": 40.1,
+    "SCTR": 40.1
   },
   {
     "id": 3,
     "ticker": "FHN",
     "Name": "First Horizon",
-    "SCTR": 66.4,
+    "SCTR": 66.4
   },
   {
-    "id": 4,
-    "ticker": "AKAM",
-    "Name": "Akamai Technologies",
-    "SCTR": 93.9,
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "qMqwwU",
+    "Name": "Micron",
+    "SCTR": 402.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micqqqqqron",
+    "SCTR": 40000.1
+  },
+  {
+    "id": 2,
+    "ticker": "MdasU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micron",
+    "SCTR": 4310.1
+  },
+  {
+    "id": 2,
+    "ticker": "MqweU",
+    "Name": "Micron",
+    "SCTR": 40.1
+  },
+  {
+    "id": 2,
+    "ticker": "MU",
+    "Name": "Micqewqwen",
+    "SCTR": 40.1
   }
-];
+]
